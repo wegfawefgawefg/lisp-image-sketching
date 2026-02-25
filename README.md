@@ -10,7 +10,18 @@ Common Lisp experiments, including PNG image generation.
 - `src/scenes/`: auto-discovered scene files
 - `scripts/`: thin wrappers (`generate.lisp`, `build.lisp`)
 - `outputs/`: generated image files (`.png`)
+- `assets/`: README preview images
 - `build/`: compiled artifacts (`.fasl`)
+
+## Image previews
+
+### Sunsphere (480x270 preview)
+
+![Sunsphere preview](assets/sunsphere_480x270.png)
+
+### Sine Stack Classic (480x270 preview)
+
+![Sine Stack Classic preview](assets/sine_stack_classic_480x270.png)
 
 ## Run and build
 
