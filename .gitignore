@@ -1,5 +1,7 @@
-*.FASL
+# Build outputs
+build/
 *.fasl
+*.FASL
 *.lisp-temp
 *.dfsl
 *.pfsl
@@ -15,3 +17,11 @@
 *.sx32fsl
 *.wx64fsl
 *.wx32fsl
+
+# Generated renders
+outputs/*
+!outputs/.gitkeep
+
+# Editor/system
+.vscode/
+.DS_Store
